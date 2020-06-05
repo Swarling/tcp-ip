@@ -8,7 +8,7 @@ has_toc: false
 ##### **Autores:** 
 {: .no_toc }
 
-Herbert Davila
+[Herbert Dávila](https://github.com/hjdgua)
 
 ##### **Fecha de creación:** 
 {: .no_toc }
