@@ -7,6 +7,8 @@ permalink: /icmp
 ##### **Autores:**
 {: .no_toc }
 
+Carlos Cetino
+
 
 ##### **Fecha de creación:** 
 {: .no_toc }
@@ -20,6 +22,10 @@ permalink: /icmp
 # TÍTULO
 {: .no_toc }
 
+ICMP
+
+
+
 #### Contenido:
 {: .no_toc }
 
@@ -30,14 +36,11 @@ permalink: /icmp
 
 
 ## Resumen
-La tabla de contenido se crea automáticamente con los títulos y subtítulos de su página.
-Debe agregar los títulos y subtítulos necesarios. Tome como ejemplo las otras páginas del sitio.
-(Recuerde eliminar este texto)
+El protocolo ICMP solamente informa de incidencias en la entrega de paquetes o de errores en la red en general, pero no toma decisión alguna al respecto. Esto es tarea de las capas superiores.
 
 
 ## TÍTULO
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
+# ICMP
 
 ## SUBTÍTULO
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
