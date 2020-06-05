@@ -8,6 +8,8 @@ has_toc: false
 ##### **Autores:** 
 {: .no_toc }
 
+Herbert Davila
+
 ##### **Fecha de creación:** 
 {: .no_toc }
 
@@ -39,7 +41,7 @@ Es una normativa formada por **siete capas** que  define las diferentes fases po
 
 Constituye por tanto un marco de referencia para la definición de arquitecturas de interconexión de sistemas de comunicaciones.
 
-! http://dis.um.es/~lopezquesada/documentos/IES_1213/LMSGI/curso/xhtml/xhtml22/imagenes/pila-osi-es.svg.png  "Capas Modelo OSI"
+
 
 ## Modelo TCP/IP
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
