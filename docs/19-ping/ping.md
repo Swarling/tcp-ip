@@ -7,9 +7,13 @@ permalink: /ping
 ##### **Autores:**
 {: .no_toc }
 
+[Anibal Leal](https://github.com/alealgt/tcp-ip)
+
 
 ##### **Fecha de creación:** 
 {: .no_toc }
+
+05-06-2020
 
 ##### **Revisiones:** 
 {: .no_toc }
@@ -17,7 +21,7 @@ permalink: /ping
 ##### **Fecha de revisión:** 
 {: .no_toc }
 
-# TÍTULO
+# PING
 {: .no_toc }
 
 #### Contenido:
@@ -35,7 +39,7 @@ Debe agregar los títulos y subtítulos necesarios. Tome como ejemplo las otras 
 (Recuerde eliminar este texto)
 
 
-## TÍTULO
+## PING
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
