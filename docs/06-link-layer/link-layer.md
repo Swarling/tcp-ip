@@ -1,22 +1,22 @@
 ---
 layout: default
-title: ARP - Protocolo de resolución de direcciones
-nav_order: 10
-permalink: /arp
+title: Capa de enlace de red
+nav_order: 16
+permalink: /link-layer
 ---
-##### **Autores:** Nombre Apellido, Nombre Apellido
+##### **Autores:** 
 {: .no_toc }
 
-##### **Fecha de creación:** 20-20-2020
+##### **Fecha de creación:** 
 {: .no_toc }
 
-##### **Revisiones:**  Nombre Apellido, Nombre Apellido
+##### **Revisiones:** 
 {: .no_toc }
 
-##### **Fecha de revisión:** 20-20-2020
+##### **Fecha de revisión:** 
 {: .no_toc }
 
-# ARP - Protocolo de resolución de direcciones
+# Capa de enlace de red
 {: .no_toc }
 
 #### Contenido:
@@ -31,27 +31,15 @@ permalink: /arp
 ## Resumen
 There are two ways to add data in Firestore.
 
-## ARP
+## Link Layer
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## Ejemplo de entrega directa
+## Tecnologías comunes de Link Layer
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## Ejemplo de entrega a través de un router
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Caché ARP
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Formato del frame ARP
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## ARP Gratuito
+## Aspectos a los que se enfoca Link Layer
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
@@ -65,4 +53,3 @@ Create model object and add values to it and `save()` the model. After saving mo
 ### Pregunta 2
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
-

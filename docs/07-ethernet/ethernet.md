@@ -1,22 +1,22 @@
 ---
 layout: default
-title: IP
-nav_order: 13
-permalink: /ip
+title: Ethernet
+nav_order: 17
+permalink: /ethernet
 ---
-##### **Autores:** Nombre Apellido, Nombre Apellido
+##### **Autores:** 
 {: .no_toc }
 
-##### **Fecha de creación:** 20-20-2020
+##### **Fecha de creación:** 
 {: .no_toc }
 
-##### **Revisiones:**  Nombre Apellido, Nombre Apellido
+##### **Revisiones:**  
 {: .no_toc }
 
-##### **Fecha de revisión:** 20-20-2020
+##### **Fecha de revisión:** 
 {: .no_toc }
 
-# IP
+# Ethernet
 {: .no_toc }
 
 #### Contenido:
@@ -31,73 +31,53 @@ permalink: /ip
 ## Resumen
 There are two ways to add data in Firestore.
 
-## IP
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Entrega del mejor esfuerzo
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## No orientado a conexión
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Header
+## Ethernet
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
 ## Direcciones
+Create model object and add values to it and `save()` the model. After saving model **model id** and 
+**model key** is attached with model object.
+
+## MTU
+Create model object and add values to it and `save()` the model. After saving model **model id** and 
+**model key** is attached with model object.
+
+## Switches
+Create model object and add values to it and `save()` the model. After saving model **model id** and 
+**model key** is attached with model object.
+
+## Formato del frame Ethernet
 There are two ways to add data in Firestore.
 
-## Big endian vs Little Endian
+## Codificación Manchester
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## DFS (Differentiated Services Field) 
+## Codificación 4B/5B 
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## ECN (Explicit Congestion Notification)
+## Codificación MLT
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## Total Length
+## Ethernet CRC32
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## Fragmentación
+## Porque de los tamaños mínimos del frame Ethernet
 There are two ways to add data in Firestore.
 
-## Time To Live
+## VLANs
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## Protocolo
+## Spanning Tree Protocol
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## Internet Checksum
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Unicast, Broadcast, Multicast
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Ruteo IP
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Tabla de enrutamiento IP
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Entrega Directa
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-## Entrega Indirecta
+## Compartiendo el medio, CSMA/CD
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
