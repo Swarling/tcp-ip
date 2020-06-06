@@ -6,7 +6,7 @@ permalink: /diseno-protocolos-red
 ---
 ##### **Autores:** 
 {: .no_toc }
-[Jimmy Morales](https://github.com/jimmymorales), [Herbert Dávila](https://github.com/hjdgua)
+[Jimmy Morales](https://github.com/jimmymorales), [Herbert Dávila](https://github.com/hjdgua), [Santiago Wever](https://github.com/sweverG)
 
 ##### **Fecha de creación:** 
 {: .no_toc }
