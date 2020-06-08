@@ -1,19 +1,15 @@
 ---
 layout: default
 title: Red de control para automóviles basada en Ethernet
-nav_order: 5
+nav_order: 13
 permalink: /ethernet-automovil
 ---
-##### **Autores:** Nombre Apellido, Nombre Apellido
+##### **Autores:**
+{: .no_toc } 
 
 Dennis Mejicanos
 
-{: .no_toc }
-
-##### **Fecha de creación:** 20-20-2020
-
-05-06-2020
-
+##### **Fecha de creación:** 05-06-2020
 {: .no_toc }
 
 ##### **Revisiones:**  Nombre Apellido, Nombre Apellido
