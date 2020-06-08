@@ -6,7 +6,7 @@ permalink: /diseno-protocolos-red
 ---
 ##### **Autores:** 
 {: .no_toc }
-[Jimmy Morales](https://github.com/jimmymorales), [Herbert Dávila](https://github.com/hjdgua)
+[Jimmy Morales](https://github.com/jimmymorales), [Herbert Dávila](https://github.com/hjdgua), [Santiago Wever](https://github.com/sweverG)
 
 ##### **Fecha de creación:** 
 {: .no_toc }
@@ -47,8 +47,15 @@ International Standards Organization (ISO): es una organización para la creaci�
 
 
 ## Arquitectura en capas
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
+Es un diseño de una arquitectura de tipo cliente-servidor que se encuentra separada por capas, las cuales tienen definido sus funciones y la manera de que se comunicaran entre ellas.
+
+La capa de presentación es la que muestra resultados, recibidos por medio de la capa de negocio, al usuario de una manera gráfica y/o entendible.
+
+La capa de negocio es donde se ejecuta todas las "transacciones", como mostrar resultados a la capa de presentación y mandar a guardar datos a la capa de datos.
+
+La capa de datos es en donde se encuentran todos los datos guardados y la capa de negocios le solicita accesar y/o guardar un dato.
+
+La ventaja de este diseño es que se pueden detectar errores en algún módulo específico e implementar nuevos cambios al diseño no afecta todas las capas.
 
 ## Encapsulamiento
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
