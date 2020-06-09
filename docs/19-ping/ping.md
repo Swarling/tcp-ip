@@ -5,15 +5,11 @@ nav_order: 29
 permalink: /ping
 ---
 ##### **Autores:**
-{: .no_toc }
-
-[Anibal Leal](https://github.com/alealgt/tcp-ip)
+{: .no_toc }[Anibal Leal](https://github.com/alealgt/tcp-ip)
 
 
 ##### **Fecha de creación:** 
-{: .no_toc }
-
-05-06-2020
+{: .no_toc }05-06-2020
 
 ##### **Revisiones:** 
 {: .no_toc }
