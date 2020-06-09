@@ -11,7 +11,9 @@ permalink: /ping
 
 
 ##### **Fecha de creación:** 
-{: .no_toc }05-06-2020
+{: .no_toc }
+
+05-06-2020
 
 ##### **Revisiones:** 
 {: .no_toc }
