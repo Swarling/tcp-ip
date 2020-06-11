@@ -7,13 +7,13 @@ permalink: /ping
 ##### **Autores:**
 {: .no_toc }
 
-[Anibal Leal](https://github.com/alealgt/tcp-ip)
+[Anibal Leal]
 
 
 ##### **Fecha de creación:** 
 {: .no_toc }
 
-05-06-2020
+11-06-2020
 
 ##### **Revisiones:** 
 {: .no_toc }
@@ -34,6 +34,10 @@ permalink: /ping
 
 
 ## Resumen
+**Esta es una prueba de modificacion del documento.** realizado por Anibal Leal.  
+
+
+
 La tabla de contenido se crea automáticamente con los títulos y subtítulos de su página.
 Debe agregar los títulos y subtítulos necesarios. Tome como ejemplo las otras páginas del sitio.
 (Recuerde eliminar este texto)
