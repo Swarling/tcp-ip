@@ -35,7 +35,7 @@ El objetivo de las redes es lograr comunicar diferentes equipos entre sí, y las
 
 Desde los inicios de lo que conocemos como el Internet, sus creadores fueron pensando en arquitecturas para que los protocolos de comunicación en redes fueran mantenibles, por esto decidieron implementar una arquitectura en capas, donde cada capa posee funciones y protocolos específicos. También se definió el encapsulamiento como una manera de comunicación entre las capas en el stack de TCP/IP.
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/US_Navy_030611-N-3160B-003_Signalman_Seaman_Adrian_Delaney_practices_his_semaphore.jpg/320px-US_Navy_030611-N-3160B-003_Signalman_Seaman_Adrian_Delaney_practices_his_semaphore.jpg)
+![Comunicacion optica](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/US_Navy_030611-N-3160B-003_Signalman_Seaman_Adrian_Delaney_practices_his_semaphore.jpg/320px-US_Navy_030611-N-3160B-003_Signalman_Seaman_Adrian_Delaney_practices_his_semaphore.jpg)
 
 ## Protocolos
 Un protocolo es un conjunto de reglas que determina todos los aspectos de una comunicación. Son convenciones que permite que la comunicación entre dos hosts se de. Los protocolos pueden ser implementados tanto en hardware, software o una comunicación de ambos.
@@ -52,39 +52,36 @@ Para que la comunicación sea exitosa, hay varios aspectos que el protocolo tien
 
 
 ## Estandares y organizaciones
-Internet Engineering Task Force (IETF):es el primer organismo de normas de Internet que desarrolla estándares  abiertos a través de procesos abiertos para hacer que Internet funcione  mejor
+Los estándares promueven una sana competencia entre todos los fabricantes de hardware y software. Un estándar es una especificación de una tecnologia o metodologia aplicable al internet. Al tener un estándar, cualquiera puede generar un hardware que se apegue a ese estándar y pueda ser compatible a toda la estructura de Internet.
 
-Institute of Electrical and Electronics Engineers(IEEE): es una asociación mundial de ingenieros dedicada a la normalización y el desarrollo en áreas técnicas
+El objetivo de Internet es generar un interconexion que pueda extenderse a través de todo el  mundo de una forma que pueda llegar a cubrir gran parte de él. Para esto se crearon varias organizaciones que crean reglas para esto.
 
-International Standards Organization (ISO): es una organización para la creación de estándares internacionales compuesta por diversas organizaciones nacionales de normalización.
+### Internet Engineering Task Force (IETF)
+Es la organización que regula el suite de protocolos TCP/IP.
 
+### Institute of Electrical and Electronics Engineers (IEEE)
+Es una asociación profesional de ingeniería electrónica e ingeniería eléctrica. Es famosa por su desarrollo en el estándar de redes locales WIFI 802.11.
 
+### International Standards Organization (ISO)
+Es la organización que se encarga a nivel mundial de mantener los estándares en general. Desarrollo el modelo de referencia OSI.
 
 ## Arquitectura en capas
-Es un diseño de una arquitectura de tipo cliente-servidor que se encuentra separada por capas, las cuales tienen definido sus funciones y la manera de que se comunicaran entre ellas.
+Los protocolos en distintas capas nos permite tener la estructura de Internet que funciona en la actualidad. El proceso de comunicación se divide en capas funcionales. Las redes de comunicación se basan en su totalidad en protocolos organizados en una forma jerárquica de capas. El concepto de esto es que cada capa en el suite de protocolos tiene un objetivo diferente que las demás y muy específico. 
+![Arquitectura en capas en la suite TCP/IP](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/IP_stack_connections.svg/525px-IP_stack_connections.svg.png)
 
-La capa de presentación es la que muestra resultados, recibidos por medio de la capa de negocio, al usuario de una manera gráfica y/o entendible.
-
-La capa de negocio es donde se ejecuta todas las "transacciones", como mostrar resultados a la capa de presentación y mandar a guardar datos a la capa de datos.
-
-La capa de datos es en donde se encuentran todos los datos guardados y la capa de negocios le solicita accesar y/o guardar un dato.
-
-La ventaja de este diseño es que se pueden detectar errores en algún módulo específico e implementar nuevos cambios al diseño no afecta todas las capas.
+Las ventajas de tener un diseño en capas:
+  * Es mucho más fácil hacer búsqueda de fallas y errores. Se puede analizar modulo por modulo.
+  * Nos permite también tener una forma más fácil de generar nuevas implementaciones.
+  * Nos permite la demultiplexion.
+  
+No solamente el sistema debe ser modular sino también realizar un análisis de qué funciones realizaran las capas.
 
 ## Encapsulamiento
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-
-## Preguntas
-
-### Pregunta 1
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
-
-### Pregunta 2
-Create model object and add values to it and `save()` the model. After saving model **model id** and 
-**model key** is attached with model object.
+Es necesario fragmentar los mensajes para que el medio pueda ser utilizado por diferentes procesos. Para hacer esta de-multiplexión se pasa cada fragmento por encapsulación. Encapsulación es agregar información importante a cada uno de estos fragmentos para que cada capa pueda ejecutar las acciones asignadas. Cada unidad que pertenece a una capa se llama PDU (Protocol Data Unit). Cada capa tiene una unidad de información que está relacionada con ella. 
+![Encapsulacion](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UDP_encapsulation.svg/525px-UDP_encapsulation.svg.png)
 
 [IETF]: https://www.ietf.org/
 [IEEE]: https://www.ieee.org/
+
+## Referencias
+1. [Internet Protocol Suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)
