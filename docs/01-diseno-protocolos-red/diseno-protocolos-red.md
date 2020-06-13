@@ -6,10 +6,11 @@ permalink: /diseno-protocolos-red
 ---
 ##### **Autores:** 
 {: .no_toc }
-[Jimmy Morales](https://github.com/jimmymorales), [Herbert Dávila](https://github.com/hjdgua), [Santiago Wever](https://github.com/sweverG)
+[Jimmy Morales](https://github.com/jimmymorales)
 
 ##### **Fecha de creación:** 
 {: .no_toc }
+12-06-2020
 
 ##### **Revisiones:**  
 {: .no_toc }
@@ -30,12 +31,25 @@ permalink: /diseno-protocolos-red
 
 
 ## Resumen
-There are two ways to add data in Firestore.
+El objetivo de las redes es lograr comunicar diferentes equipos entre sí, y las computadoras son dispositivos que tienen la capacidad de ejecutar múltiples procesos simultáneamente. ¿Cómo deben los hosts (equipos finales) ponerse de acuerdo para intercambiar mensajes?. Para esto se definen reglas, sintaxis y como se sincronizará la información. En el ámbito de telecomunicaciones estas reglas son definidas por organizaciones internacionales como la [IETF] e [IEEE].
+
+Desde los inicios de lo que conocemos como el Internet, sus creadores fueron pensando en arquitecturas para que los protocolos de comunicación en redes fueran mantenibles, por esto decidieron implementar una arquitectura en capas, donde cada capa posee funciones y protocolos específicos. También se definió el encapsulamiento como una manera de comunicación entre las capas en el stack de TCP/IP.
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/US_Navy_030611-N-3160B-003_Signalman_Seaman_Adrian_Delaney_practices_his_semaphore.jpg/320px-US_Navy_030611-N-3160B-003_Signalman_Seaman_Adrian_Delaney_practices_his_semaphore.jpg)
 
 ## Protocolos
-El objetivo de las redes es lograr comunicar diferentes equipos entre sí, y las computadoras son dispositivos que tienen la capacidad de ejecutar múltiples procesos simultáneamente. ¿Cómo deben los hosts (equipos finales) ponerse de acuerdo para intercambiar mensajes?
-
 Un protocolo es un conjunto de reglas que determina todos los aspectos de una comunicación. Son convenciones que permite que la comunicación entre dos hosts se de. Los protocolos pueden ser implementados tanto en hardware, software o una comunicación de ambos.
+
+Para que la comunicación sea exitosa, hay varios aspectos que el protocolo tiene que definir:
+  * Conexión física. Los hosts generalmente tienen hardware que dependen de diferentes fabricantes. Los protocolos establecen cómo se va a manejar ese diferente equipo para que sea compatible con otro equipo de otro fabricante.
+  * Handshaking. El handshaking es una serie de pasos que se realizan al iniciar una comunicación entre dos hosts.
+  * Negociación de parámetros.
+  * Las fronteras de un mensaje. Definen cuando inicia un mensaje y cuando termina.
+  * Formato y estructura del mensaje.
+  * Detección de errores. Un protocolo puede definir como saber que un mensaje está corrupto y cómo manejarlo.
+  * Puede realizar un tipo de corrección de errores o simplemente descartar el mensaje.
+  * Finalización de la comunicación entre dos hosts.
+
 
 ## Estandares y organizaciones
 Internet Engineering Task Force (IETF):es el primer organismo de normas de Internet que desarrolla estándares  abiertos a través de procesos abiertos para hacer que Internet funcione  mejor
@@ -71,3 +85,6 @@ Create model object and add values to it and `save()` the model. After saving mo
 ### Pregunta 2
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
+
+[IETF]: https://www.ietf.org/
+[IEEE]: https://www.ieee.org/
