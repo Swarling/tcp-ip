@@ -67,6 +67,7 @@ Es la organización que se encarga a nivel mundial de mantener los estándares e
 
 ## Arquitectura en capas
 Los protocolos en distintas capas nos permite tener la estructura de Internet que funciona en la actualidad. El proceso de comunicación se divide en capas funcionales. Las redes de comunicación se basan en su totalidad en protocolos organizados en una forma jerárquica de capas. El concepto de esto es que cada capa en el suite de protocolos tiene un objetivo diferente que las demás y muy específico. 
+
 ![Arquitectura en capas en la suite TCP/IP](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/IP_stack_connections.svg/525px-IP_stack_connections.svg.png)
 
 Las ventajas de tener un diseño en capas:
@@ -77,7 +78,8 @@ Las ventajas de tener un diseño en capas:
 No solamente el sistema debe ser modular sino también realizar un análisis de qué funciones realizaran las capas.
 
 ## Encapsulamiento
-Es necesario fragmentar los mensajes para que el medio pueda ser utilizado por diferentes procesos. Para hacer esta de-multiplexión se pasa cada fragmento por encapsulación. Encapsulación es agregar información importante a cada uno de estos fragmentos para que cada capa pueda ejecutar las acciones asignadas. Cada unidad que pertenece a una capa se llama PDU (Protocol Data Unit). Cada capa tiene una unidad de información que está relacionada con ella. 
+Es necesario fragmentar los mensajes para que el medio pueda ser utilizado por diferentes procesos. Para hacer esta de-multiplexión se pasa cada fragmento por encapsulación. Encapsulación es agregar información importante a cada uno de estos fragmentos para que cada capa pueda ejecutar las acciones asignadas. Cada unidad que pertenece a una capa se llama PDU (Protocol Data Unit). Cada capa tiene una unidad de información que está relacionada con ella.
+
 ![Encapsulacion](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UDP_encapsulation.svg/525px-UDP_encapsulation.svg.png)
 
 [IETF]: https://www.ietf.org/
