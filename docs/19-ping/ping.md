@@ -30,58 +30,60 @@ permalink: /ping
 
 
 ## Resumen
-**Esta es una prueba de modificación del documento.** realizado por Anibal Leal.  
+PING es un herramienta de diagnostico muy popular y  sencilla que esta incluida  prácticamente en todos los sistemas operativos y en las aplicaciones que se usan para la administración de redes.  Se utiliza frecuentemente para saber si un host esta activo o para determinar el tiempo (latencia) que se tarda un paquete en llegar de un host a otro.
+
+Dependiendo del sistema operativo que se use, tienen algunas variaciones en los parámetros que se le pueden adicionar a la herramienta.
+
+> Latencia: es el tiempo que se tarde en llegar un paquete de un host a otro.
 
 
-## PING
-Ques es
 
-## Formato
+## Como funciona 
 
-Solicitud 
+El PING para su funcionamiento utiliza mensajes ICMP,  el host origen envía un mensaje ICMP ECHO REQUEST y el receptor responde con un mensaje ICMP ECHO REPLY.
 
-![](C:\Users\aleal\AppData\Roaming\Typora\typora-user-images\image-20200611230726370.png)
+Cuando se envía el PING, el host origen encapsula dentro del paquete IP el mensaje ICMP que contiene:
 
-Respuesta
+- Tipo de mensaje (con valor 8)
+- Código de mensaje (con valor 0)
+- Checksum 
+- Identificador
+- Numero se secuencia
+- Datos (opcional)
 
-![image-20200611230932634](C:\Users\aleal\AppData\Roaming\Typora\typora-user-images\image-20200611230932634.png)
+El host destino envía la respuesta con un paquete IP que contiene:
 
-## Estructura del paquete
+- Tipo de mensaje (con valor 0)
+- Código de mensaje (con valor 0)
+- Checksum 
+- Identificador
+- Numero se secuencia
+- Datos (opcional)
 
-### Windows
+El identificador y el número de secuencia de la respuesta (ECHO REPLY) deben de ser iguales a los que envió el host que originó la solicitud (ECHO REQUEST).
 
-Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
-            [-r count] [-s count] [[-j host-list] | [-k host-list]]
-            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
-            [-4] [-6] target_name
+## Formato mensajes ICMP
 
-Options:
-    -t             Ping the specified host until stopped.
-                   To see statistics and continue - type Control-Break;
-                   To stop - type Control-C.
-    -a             Resolve addresses to hostnames.
-    -n count       Number of echo requests to send.
-    -l size        Send buffer size.
-    -f             Set Don't Fragment flag in packet (IPv4-only).
-    -i TTL         Time To Live.
-    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
-                   and has no effect on the type of service field in the IP
-                   Header).
-    -r count       Record route for count hops (IPv4-only).
-    -s count       Timestamp for count hops (IPv4-only).
-    -j host-list   Loose source route along host-list (IPv4-only).
-    -k host-list   Strict source route along host-list (IPv4-only).
-    -w timeout     Timeout in milliseconds to wait for each reply.
-    -R             Use routing header to test reverse route also (IPv6-only).
-                   Per RFC 5095 the use of this routing header has been
-                   deprecated. Some systems may drop echo requests if
-                   this header is used.
-    -S srcaddr     Source address to use.
-    -c compartment Routing compartment identifier.
-    -p             Ping a Hyper-V Network Virtualization provider address.
-    -4             Force using IPv4.
-    -6             Force using IPv6.
+### Echo Request
 
-### Linux
+![](C:\Users\aleal\Pictures\Echo Request.png)
 
-### IOS
+### Echo Replay
+
+![](C:\Users\aleal\Pictures\Echo Replay.png)
+
+
+
+## Como se usa
+
+Su uso es muy sencillo,  se inicia una sesión de línea de comando en el sistema operativo (ejemplo: En Windows se escribe el comando CMD en el buscador)   y se teclea: 
+
+**ping \<IP o nombre del host\>**
+
+
+
+## Sintaxis: 
+
+- [ ] [Microsoft Windows](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ping)
+- [ ] [Ubuntu Linux](http://manpages.ubuntu.com/manpages/trusty/man8/ping.8.html )
+
