@@ -1,22 +1,23 @@
 ---
 layout: default
-title: Wireless
-nav_order: 9
-permalink: /wifi
+title: RENO y TAHOE
+nav_order: 37
+permalink: /reno-tahoe
 ---
-##### **Autores:** Nombre Apellido, Nombre Apellido
+##### **Autores:**
 {: .no_toc }
 
-##### **Fecha de creación:** 20-20-2020
+
+##### **Fecha de creación:** 
 {: .no_toc }
 
-##### **Revisiones:**  Nombre Apellido, Nombre Apellido
+##### **Revisiones:** 
 {: .no_toc }
 
-##### **Fecha de revisión:** 20-20-2020
+##### **Fecha de revisión:** 
 {: .no_toc }
 
-# Wireless, WIFI 802.11
+# TÍTULO
 {: .no_toc }
 
 #### Contenido:
@@ -29,12 +30,15 @@ permalink: /wifi
 
 
 ## Resumen
-There are two ways to add data in Firestore.
+La tabla de contenido se crea automáticamente con los títulos y subtítulos de su página.
+Debe agregar los títulos y subtítulos necesarios. Tome como ejemplo las otras páginas del sitio.
+(Recuerde eliminar este texto)
 
-## WIFI 802.11
+
+## TÍTULO
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
-## Compartiendo el medio en WIFI
+## SUBTÍTULO
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object. Esta es una prueba

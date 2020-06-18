@@ -1,23 +1,22 @@
 ---
 layout: default
-title: CSMA/CA
-nav_order: 12
-permalink: /csma-ca
-has_children: true
+title: Capa de enlace de red
+nav_order: 16
+permalink: /link-layer
 ---
-##### **Autores:** Nombre Apellido, Nombre Apellido
+##### **Autores:** 
 {: .no_toc }
 
-##### **Fecha de creación:** 20-20-2020
+##### **Fecha de creación:** 
 {: .no_toc }
 
-##### **Revisiones:**  Nombre Apellido, Nombre Apellido
+##### **Revisiones:** 
 {: .no_toc }
 
-##### **Fecha de revisión:** 20-20-2020
+##### **Fecha de revisión:** 
 {: .no_toc }
 
-# Revisiting CSMA/CA
+# Capa de enlace de red
 {: .no_toc }
 
 #### Contenido:
@@ -32,7 +31,15 @@ has_children: true
 ## Resumen
 There are two ways to add data in Firestore.
 
-## Contenido
+## Link Layer
+Create model object and add values to it and `save()` the model. After saving model **model id** and 
+**model key** is attached with model object.
+
+## Tecnologías comunes de Link Layer
+Create model object and add values to it and `save()` the model. After saving model **model id** and 
+**model key** is attached with model object.
+
+## Aspectos a los que se enfoca Link Layer
 Create model object and add values to it and `save()` the model. After saving model **model id** and 
 **model key** is attached with model object.
 
