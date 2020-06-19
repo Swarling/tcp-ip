@@ -7,6 +7,8 @@ permalink: /ruteo-estatico
 ##### **Autores:**
 {: .no_toc }
 
+Melvin David Torres Perdomo
+
 
 ##### **Fecha de creación:** 
 {: .no_toc }
@@ -17,7 +19,7 @@ permalink: /ruteo-estatico
 ##### **Fecha de revisión:** 
 {: .no_toc }
 
-# TÍTULO
+# Ejemplo de Ruteo Estático
 {: .no_toc }
 
 #### Contenido:
