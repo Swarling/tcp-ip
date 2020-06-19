@@ -34,7 +34,7 @@ La segunda capa del Modelo de referencia OSI es la capa de enlace de datos, Trad
 #  **Link Layer**
 La capa de enlace de datos, a veces también llamada *capa de enlace* es donde muchas tecnologías de redes de área local (LAN) cableadas e inalámbricas funcionan principalmente.
 
-![Data Link Layer](../../../../../Desktop/DLL.JPG)
+![Data Link Layer](https://image.slidesharecdn.com/et3003-sem2-1314-2osi-tcpip-140129205340-phpapp02/95/et30032-ositcpip-semester-ii-20132014-14-638.jpg)
 
 La capa de enlace de datos a menudo se divide conceptualmente en dos subcapas: *control de enlace lógico (LLC)* y *control de acceso a medios (MAC)* . Esta división se basa en la arquitectura utilizada en el Proyecto IEEE 802. Al separar las funciones LLC y MAC, la interoperabilidad de diferentes tecnologías de red se hace más fácil
 
