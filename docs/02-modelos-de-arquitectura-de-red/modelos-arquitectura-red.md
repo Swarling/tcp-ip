@@ -16,8 +16,8 @@ has_toc: false
 ##### **Fecha de creación:** 
 {: .no_toc }
 
-##### **Revisiones:**  
-{: .no_toc }
+##### **Revisiones:**
+[Manuel Hernández](https://github.com/BlackLusterSK)
 
 ##### **Fecha de revisión:** 
 {: .no_toc }
