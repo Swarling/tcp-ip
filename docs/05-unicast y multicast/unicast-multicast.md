@@ -56,6 +56,12 @@ Un ejemplo de la utilización de este método es en un servidor que transmite v�
 
 ![Multicast Video](https://ramp.com/wp-content/uploads/2017/04/Web-Diagram-Multicast-1024x545.png)
 
-Este método es una técnica de red en donde envía el mismo paquete simultáneamente a un grupo de receptores y ya que [TCP](https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n) solamente soporta Unicast, Multicast utiliza [UDP](https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario).
+Este método es una técnica de red en donde envía el mismo paquete simultáneamente a un grupo de receptores y ya que [TCP](https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n) solamente soporta Unicast, Multicast utiliza [UDP](https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario). Por naturaleza, UDP no es confiable ya que los paquetes pueden perderse o llegar a su destino en desorden, pero en el transcurso del tiempo Multicast ha podido implementar soluciones de detección de pérdida de paquetes y mecanismos de retransmisión.
+
+También existe la técnica [IP Multicast](https://es.wikipedia.org/wiki/IP_Multicast) para comunicaciones "One-to-Many" sobre la red IP, en donde Multicast utiliza la estructura de la red eficientemente ya que solo envía el paquete una vez. Los nodos en la red ya se encargan de replicar el paquete a para que logre alcanzar todos los receptores necesarios.
+
+Otra técnica es la de Multicast de Capa de Aplicación, en donde utilizando múltiples transmisiones Unicast es posible simular un Multicast y es utilizada para comunicación a nivel de capa de aplicación.
+
+El método Multicast actualmente es utilizado mayormente en ambientes corporativos y aunque se ha tratado de introducir más al internet, actualmente es utilizado para transmisiones en vivo.
 
 ![Multicast](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F30%2FMulticast.svg%2F1200px-Multicast.svg.png&f=1&nofb=1)
