@@ -11,10 +11,10 @@ Christian Tellez
 17/6/2020
 
 ##### **Revisiones:** 
-{: .no_toc }
+Manuel Hernández
 
 ##### **Fecha de revisión:** 
-{: .no_toc }
+19/6/2020
 
 # Fragmentación
 
@@ -59,3 +59,15 @@ Conocemos que el MTU máximo son 1500 bytes y el paquete a transferir pesa 3000 
 3er Paquete: Bytes Transferidos 3000
 - 20 bytes del Header IP
 - 40 bytes de Payload
+
+## Pros y Contras de la Fragmentación
+
++ **Pros:**
+  - Permite que un datagrama viaje por distintas redes y topologías de red independientemente de que protocolos ó tarjetas de red que se estén utilizando.
+  - Es una forma de resolver el envío de paquetes muy grandes a traves de la red, por ejemplo un archivo de descarga.
+
++ **Contras:**
+  - Si se pierde un fragmento en el proceso de envío, se deben de retransmitir nuevamente todos los fragmentos del datagrama original.
+  - La fragmentación puede afectar negativamente al flujo de datos. Por eso se intenta usar lo menos posible.
+  - Añade carga a los routers.
+  - Hasta que no se reciba el datagrama completo no se pueden pasar los datos al nivel de transporte por lo que se podría causar un mayor retardo.
