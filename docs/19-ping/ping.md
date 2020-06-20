@@ -66,13 +66,17 @@ El identificador y el número de secuencia de la respuesta (ECHO REPLY) deben de
 
 ### Echo Request
 
-![](C:\Users\aleal\Pictures\Echo Request.png)
+
+
+![](E:\Postgrados\2020 PRC\Ciclo 2\Suite de Protocolos TCPIP\GitHub\tcp-ip\docs\19-ping\Echo Request.png)
+
+
 
 ### Echo Replay
 
-![](C:\Users\aleal\Pictures\Echo Replay.png)
 
 
+![Echo Replay](E:\Postgrados\2020 PRC\Ciclo 2\Suite de Protocolos TCPIP\GitHub\tcp-ip\docs\19-ping\Echo Replay.png)
 
 ## Como se usa
 
@@ -82,8 +86,13 @@ Su uso es muy sencillo,  se inicia una sesión de línea de comando en el sistem
 
 
 
-## Sintaxis: 
+## Sintaxis 
 
 - [ ] [Microsoft Windows](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ping)
 - [ ] [Ubuntu Linux](http://manpages.ubuntu.com/manpages/trusty/man8/ping.8.html )
 
+
+
+## Conclusión
+
+Ping es una herramienta sencilla y muy útil que nos permite diagnosticar rápidamente la conectividad de un host dentro de una red privada o internet. 
