@@ -6,6 +6,7 @@ permalink: /ruteo-estatico
 
 ---
 
+
 ##### **Autores:** Swarling A. González
 
 ##### **Fecha de creación:**  19/06/2020
@@ -18,7 +19,9 @@ permalink: /ruteo-estatico
 
 {: .no_toc }
 
+
 # RUTEO ESTÁTICO
+
 
 {: .no_toc }
 
